@@ -1,0 +1,18 @@
+//compassとscssを使った便利なuiパーツの紹介
+
+// 【2】袋文字テキスト
+
+.text-outline-character {
+  @include text-outline-character(blue, white);
+}
+
+@mixin text-outline-character($text-color, $outline-color) {
+  @include text-shadow(
+    $outline-color -1px -1px 0px,
+    $outline-color 1px -1px 0px,
+    $outline-color 1px 1px 0px,
+    $outline-color -1px 1px 0px,
+    rgba(0, 0, 0, 0.8) 1px 2px 3px);
+  color: $text-color;
+}
+
