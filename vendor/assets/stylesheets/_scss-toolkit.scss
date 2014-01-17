@@ -3,10 +3,6 @@
 // 【１】css3を使ったボタン
 // 引数に色名(cssで指定出来る形式ならなんでもOK)を入れると、その色をベースカラーとしたボタンが一瞬で作れます。
 
-.btn-3d {
-  @include css3-button(blue);
-}
-
 @mixin css3-button($base-color) {
   /* IE8以下対策でベースカラーを背景色に指定 */
   background: $base-color;
@@ -54,10 +50,6 @@
 
 // 【2】袋文字テキスト
 
-.text-outline-character {
-  @include text-outline-character(blue, white);
-}
-
 @mixin text-outline-character($text-color, $outline-color) {
   @include text-shadow(
     $outline-color -1px -1px 0px,
@@ -67,4 +59,3 @@
     rgba(0, 0, 0, 0.8) 1px 2px 3px);
   color: $text-color;
 }
-
