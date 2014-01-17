@@ -1,21 +1,50 @@
-# ScssToolkitRails
+# scss-toolkit-rails
 
-Scss/compassで作ったmixin集です
+Scss/compassを利用したMixinをまとめたGemです。
 
 ## Installation
 
-Add this line to your application's Gemfile:
+### Railsユーザー向け
 
-    gem 'scss_toolkit_rails'
+1) 以下のコードを`Gemfile`に追加してください:
 
-And then execute:
+```ruby
+group :assets do
+  gem 'sass-rails'
+  gem 'compass-rails'
+  gem 'scss-toolkit-rails'
+end
+```
 
-    $ bundle
+2) 以下のコードを`application.css.sass`のようなファイルに追加して下さい:
 
-Or install it yourself as:
+```sass
+@import compass/utilities
+@import compass/css3
+@import scss-toolkit
+```
 
-    $ gem install scss_toolkit_rails
+3) Enjoy!
 
-## Usage
+### Rails以外（Middlemanなど）でお使いの方向け
 
-TODO: Write usage instructions here
+1) 以下のコマンドを実行して、ローカルに`_scss-toolkit.sass`をダウンロードして下さい:
+
+```
+curl https://raw.github.com/mahm/scss-toolkit-rails/master/vendor/assets/stylesheets/_scss-toolkit.sass > _scss-toolkit.sass
+```
+
+2) Compassの使える環境で`_scss-toolkit.sass`をインポートしてお使いください:
+
+```sass
+@import compass/utilities
+@import compass/css3
+@import scss-toolkit
+```
+
+3) Enjoy!
+
+
+## 使用例
+
+- under construction
