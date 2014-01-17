@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'scss_toolkit_rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "scss-toolkit-rails"
+  spec.name          = "scss_toolkit_rails"
   spec.version       = ScssToolkitRails::VERSION
   spec.authors       = ["dentaq"]
   spec.email         = ["katsu.home@gmail.com"]

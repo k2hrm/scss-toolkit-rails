@@ -6,7 +6,7 @@ Scss/compassで作ったmixin集です
 
 Add this line to your application's Gemfile:
 
-    gem 'scss-toolkit-rails'
+    gem 'scss_toolkit_rails'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install scss-toolkit_rails
+    $ gem install scss_toolkit_rails
 
 ## Usage
 
