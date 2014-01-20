@@ -47,4 +47,4 @@ curl https://raw.github.com/mahm/scss-toolkit-rails/master/vendor/assets/stylesh
 
 ## 使用例
 
-- under construction
+[https://github.com/dentaq/scss-toolkit-rails](https://github.com/dentaq/scss-toolkit-rails)
