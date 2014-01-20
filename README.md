@@ -47,5 +47,5 @@ curl https://raw.github.com/mahm/scss-toolkit-rails/master/vendor/assets/stylesh
 
 ## 使用例
 
-[Scss Toolkit Sample](http://scss-toolkit-sample.herokuapp.com/)
-[Scss Toolkit Sample(github)](https://github.com/dentaq/scss-toolkit-sample)
+* [Scss Toolkit Sample](http://scss-toolkit-sample.herokuapp.com/)
+* [Scss Toolkit Sample(github)](https://github.com/dentaq/scss-toolkit-sample)
