@@ -46,8 +46,6 @@
   }
 }
 
-//compassとscssを使った便利なuiパーツの紹介
-
 // 【2】袋文字テキスト
 
 @mixin text-outline-character($text-color, $outline-color) {
@@ -58,4 +56,13 @@
     $outline-color -1px 1px 0px,
     rgba(0, 0, 0, 0.8) 1px 2px 3px);
   color: $text-color;
+}
+
+// 【3】角丸ドロップシャドウ
+
+@mixin radius-with-dropshadow($radius: 6px) {
+  @include border-radius($radius);
+  @include box-shadow(0px 0px 10px #808080);
+  padding: 10px;
+  margin: 10px;
 }
