@@ -24,8 +24,6 @@ end
 @import scss-toolkit
 ```
 
-3) Enjoy!
-
 ### Rails以外（Middlemanなど）でお使いの方向け
 
 1) 以下のコマンドを実行して、ローカルに`_scss-toolkit.sass`をダウンロードして下さい:
@@ -42,10 +40,15 @@ curl https://raw.github.com/mahm/scss-toolkit-rails/master/vendor/assets/stylesh
 @import scss-toolkit
 ```
 
-3) Enjoy!
-
 
 ## 使用例
 
 * [Scss Toolkit Sample](http://scss-toolkit-sample.herokuapp.com/)
 * [Scss Toolkit Sample(github)](https://github.com/dentaq/scss-toolkit-sample)
+
+
+## その他
+
+gem化にあたりましては
+[https://github.com/mahm/zurui-sass-rails](https://github.com/mahm/zurui-sass-rails)
+を参考にさせていただきました。ありがとうございました。
